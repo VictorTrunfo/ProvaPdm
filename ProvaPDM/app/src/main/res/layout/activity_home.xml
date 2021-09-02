@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".HomeActivity">
+
+    <LinearLayout
+        android:id="@+id/Mesas"
+        android:layout_width="410dp"
+        android:layout_height="376dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.002">
+
+        <LinearLayout
+            android:id="@+id/linha1"
+            android:layout_width="379dp"
+            android:layout_height="108dp"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="17dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/Mesa1"
+                android:layout_width="115dp"
+                android:layout_height="108dp"
+                android:layout_marginBottom="1dp"
+                android:background="#3F51B5"
+                android:orientation="vertical"
+                android:paddingBottom="1dp">
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_1"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="45sp" />
+
+                <ToggleButton
+                    android:id="@+id/reservarMesa1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="48dp"
+                    android:text="ToggleButton"
+                    android:textOff="@string/reservar"
+                    android:textOn="@string/reservada"
+                    tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/Mesa2"
+                android:layout_width="115dp"
+                android:layout_height="108dp"
+                android:layout_marginStart="17dp"
+                android:background="#3F51B5"
+                android:divider="?android:dividerHorizontal"
+                android:orientation="vertical"
+                android:showDividers="middle">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_2"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="45sp" />
+
+                <ToggleButton
+                    android:id="@+id/reservarMesa2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="48dp"
+                    android:text="ToggleButton"
+                    android:textOff="@string/reservar"
+                    android:textOn="@string/reservada"
+                    tools:ignore="TouchTargetSizeCheck" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/Mesa3"
+                android:layout_width="115dp"
+                android:layout_height="108dp"
+                android:layout_marginStart="17dp"
+                android:background="#3F51B5"
+                android:divider="?android:dividerHorizontal"
+                android:orientation="vertical"
+                android:showDividers="middle">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_3"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="45sp" />
+
+                <ToggleButton
+                    android:id="@+id/reservarMesa3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="48dp"
+                    android:text="ToggleButton"
+                    android:textOff="@string/reservar"
+                    android:textOn="@string/reservada"
+                    tools:ignore="TouchTargetSizeCheck" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linha2"
+            android:layout_width="379dp"
+            android:layout_height="108dp"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="17dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/Mesa4"
+                android:layout_width="115dp"
+                android:layout_height="108dp"
+                android:background="#3F51B5"
+                android:divider="?android:dividerHorizontal"
+                android:orientation="vertical"
+                android:showDividers="middle">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_4"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="45sp" />
+
+                <ToggleButton
+                    android:id="@+id/reservarMesa4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="48dp"
+                    android:text="ToggleButton"
+                    android:textOff="@string/reservar"
+                    android:textOn="@string/reservada"
+                    tools:ignore="TouchTargetSizeCheck" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/Mesa5"
+                android:layout_width="115dp"
+                android:layout_height="108dp"
+                android:layout_marginStart="17dp"
+                android:background="#3F51B5"
+                android:divider="?android:dividerHorizontal"
+                android:orientation="vertical"
+                android:showDividers="middle">
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_5"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="45sp" />
+
+                <ToggleButton
+                    android:id="@+id/reservarMesa5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="48dp"
+                    android:text="ToggleButton"
+                    android:textOff="@string/reservar"
+                    android:textOn="@string/reservada"
+                    tools:ignore="TouchTargetSizeCheck" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/Mesa6"
+                android:layout_width="115dp"
+                android:layout_height="108dp"
+                android:layout_marginStart="17dp"
+                android:background="#3F51B5"
+                android:divider="?android:dividerHorizontal"
+                android:orientation="vertical"
+                android:showDividers="middle">
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_6"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="45sp" />
+
+                <ToggleButton
+                    android:id="@+id/reservarMesa6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="48dp"
+                    android:text="ToggleButton"
+                    android:textOff="@string/reservar"
+                    android:textOn="@string/reservada"
+                    tools:ignore="TouchTargetSizeCheck" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linha3"
+            android:layout_width="379dp"
+            android:layout_height="108dp"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="17dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/Mesa7"
+                android:layout_width="115dp"
+                android:layout_height="108dp"
+                android:background="#3F51B5"
+                android:divider="?android:dividerHorizontal"
+                android:orientation="vertical"
+                android:showDividers="middle">
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_7"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="45sp" />
+
+                <ToggleButton
+                    android:id="@+id/reservarMesa7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="48dp"
+                    android:text="ToggleButton"
+                    android:textOff="@string/reservar"
+                    android:textOn="@string/reservada"
+                    tools:ignore="TouchTargetSizeCheck" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/Mesa8"
+                android:layout_width="115dp"
+                android:layout_height="108dp"
+                android:layout_marginStart="17dp"
+                android:background="#3F51B5"
+                android:divider="?android:dividerHorizontal"
+                android:orientation="vertical"
+                android:showDividers="middle">
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_8"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="45sp" />
+
+                <ToggleButton
+                    android:id="@+id/reservarMesa8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="48dp"
+                    android:text="ToggleButton"
+                    android:textOff="@string/reservar"
+                    android:textOn="@string/reservada"
+                    tools:ignore="TouchTargetSizeCheck" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/Mesa9"
+                android:layout_width="115dp"
+                android:layout_height="108dp"
+                android:layout_marginStart="17dp"
+                android:background="#3F51B5"
+                android:divider="?android:dividerHorizontal"
+                android:orientation="vertical"
+                android:showDividers="middle">
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_9"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="45sp" />
+
+                <ToggleButton
+                    android:id="@+id/reservarMesa9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="48dp"
+                    android:text="ToggleButton"
+                    android:textOff="@string/reservar"
+                    android:textOn="@string/reservada"
+                    tools:ignore="TouchTargetSizeCheck" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/Mesa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:ems="10"
+        android:hint="@string/n_mero_mesa"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.039"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Mesas"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/liberarMesa"
+        android:layout_width="175dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="#D3D0D0"
+        android:text="@string/liberar_mesa"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.932"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Mesas"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/salvarOp"
+        android:layout_width="388dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#D3D0D0"
+        android:text="@string/salvar_opera_o"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.304"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Mesa"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/reservarMesas"
+        android:layout_width="388dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#D3D0D0"
+        android:text="@string/reservar_todas_as_mesas"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.304"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/salvarOp"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/config"
+        android:layout_width="388dp"
+        android:layout_height="52dp"
+        android:backgroundTint="#D3D0D0"
+        android:text="Configuração"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.304"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/reservarMesas"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
